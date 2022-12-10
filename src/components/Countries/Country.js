@@ -6,8 +6,8 @@ const Country = (props) => {
 
   const style = {
     border: "1px solid red",
-    margin: "3px",
-    padding: "3px",
+    margin: "4px",
+    padding: "4px",
     borderRadius: "5px",
     textAlign: "center",
   };
