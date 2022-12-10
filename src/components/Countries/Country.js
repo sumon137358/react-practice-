@@ -1,5 +1,5 @@
 import React from "react";
-
+import './Countries.css'
 const Country = (props) => {
   const { name, capital, region, flag, population } = props.country;
   const addCountry = props.handleClick;
@@ -9,6 +9,7 @@ const Country = (props) => {
     margin: "3px",
     padding: "3px",
     borderRadius: "5px",
+    textAlign: "center",
   };
   return (
     <div style={style}>
